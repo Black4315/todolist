@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --body-background: #FAFAFA;
+    --header-bar-backg1: #EEA390;
+    --header-bar-backg2: #EB796F;
+
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: var(--body-background);
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 550px;
+    width: 550px;
+    margin: 0 20px;
+    background: #fff;
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.36);
+}
+
+.header-part {
+    display: flex;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    padding: 20px 20px 10px 20px;    
+    justify-content: space-between;
+    background: linear-gradient(90deg, var(--header-bar-backg1) 0%, var(--header-bar-backg2) 43%, var(--header-bar-backg2) 100%);
+}
+
+.header-part button {
+    background: transparent;
+    border: 1px solid #f7f7f7;
+    border-radius: 15px;
+    padding: 7px;
+    color: #f7f7f7;
+    font-size: 1em;    
+    font-weight: 400;
+    font-family: 'Nunito';
+    cursor: pointer;
+    transition: .2s ease-in;
+}
+.header-part button:hover{
+    border-color: transparent;
+    background: #f7f7f7;
+    color: var(--header-bar-backg2);
+
+}
+.header-part a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+.task-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.task-wrapper .task {
+    display: flex;
+}
+
+.task-wrapper a {
+    text-decoration: none;
+    color: #4b5156;
+    margin-left: 10px;
+}
+
+.task-comp-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgb(105, 192, 105);
+}
+
+.task-incomp-icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgb(216, 216, 216);
+
+}
+
+.task-wrapper .delete-link {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    color: #cf4949;
+}
+
+.search-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 18px 10px 20px;
+}
+
+.search-wrapper {
+    display: flex;
+}
+
+.search-wrapper input {
+    border-radius: 50px 0 0 50px !important;
+    border-right-width: 0px !important;
+}
+
+.search-wrapper button {
+    border-radius: 0 50px 50px 0;
+}
+
+.search-add-wrapper .add-link {
+    text-decoration: none;
+    font-size: 45px;
+    line-height: 0;
+    color: var(--header-bar-backg2);
+
+}
+
+input[type=text],
+input[type=password],
+textarea {
+    border: 1px solid var(--header-bar-backg2);
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    outline-color: var(--header-bar-backg2);
+
+}
+
+label {
+    padding-top: 10px !important;
+    display: block;
+    color:  #808386;
+}
+
+.btn {
+    color: var(--header-bar-backg2);
+    border: 1px solid var(--header-bar-backg2);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    background: transparent;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover {
+    color:#fff;
+    background:var(--header-bar-backg2) ;
+
+}
+
+.card-body{
+    padding: 20px;
+}
+.card-body  a{
+    color: var(--header-bar-backg2);
+    text-decoration: none;
+}
