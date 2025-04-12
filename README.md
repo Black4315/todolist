@@ -21,7 +21,7 @@ A full-stack **To-Do List** web application built with **HTML**, **CSS**, **Java
 ![ToDoList Snapshot](assets/images/todolist-snapshot.png)
 
 ## 📄 License
-MIT License © 2025 Yahia Badr
+MIT License © 2024 Yahia Badr
 
 ## 🌐 Demo
 [Live Demo](#)
